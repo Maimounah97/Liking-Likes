@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylePart2.css">
+    <title>Liking Likes Part 2</title>
+</head>
+
+<body>
+    <div class="nav">Network</div>
+    <div class="title">Your Feed </div>
+    <div class="sections">
+    <div class="leftSection">
+        <div class="box">
+            <img src="avatar.jpg" alt="avatar" class="avatar"><br>
+            <a class="addAnAvatar"  href ="#">Add an avatar</a>
+            <p>James Doe</p>
+        </div>
+    </div>
+    <div class="rightSection">
+    <div class="container Neil">
+    <div class="card ">
+        <div class="name">Neil M</div>
+        <div class="likes"><div id="likes-counter-Neil">0</div> like(s)</div>
+        <button id="likeB" onclick="addLikeNeil(this)">like</button>
+    </div>
+    <p>I just set up this new discord bot, let me know what you all think. <a href ="#">link</a></p>
+</div>
+<div class="container Nichole">
+    <div class="card ">
+        <div class="name">Nichole K</div>
+        <div class="likes"><div id="likes-counter-Nichole">0</div> like(s)</div>
+        <button id="likeB" onclick="addLikeNichole(this)">like</button>
+    </div>
+    <p>Just finished my <a href ="#">next comic</a>, check it out</p>
+</div>
+<div class="container Jim">
+    <div class="card ">
+        <div class="name">Jim R</div>
+        <div class="likes"><div id="likes-counter-Jim">0</div> like(s)</div>
+        <button id="likeB" onclick="addLikeJim(this)">like</button>
+    </div>
+    <p>I can not stop listening to the <a href ="#">new album</a>. who else is liking it?</p>
+</div>
+</div>
+</div>
+    <script src="appPart2.js"></script>    
+</body>
+</html>

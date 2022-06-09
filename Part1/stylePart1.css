@@ -1,0 +1,31 @@
+* {
+    
+    font-family: sans-serif;
+    font-family: cursive;
+  }
+.container{
+    margin: auto;
+    border: 3px solid black;
+    width: 30%;
+    height: 120px;
+    padding: 20px;
+  }
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+#likeB{
+    padding: 5px;
+    width: 70px;
+    background-color: yellow;
+}
+#likes-counter{
+  width: 200px;
+  
+}
+.likes div{
+  display: inline;
+} 
